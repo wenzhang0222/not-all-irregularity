@@ -40,7 +40,7 @@ The data is released under a Creative Commons Attribution-ShareAlike 4.0 Interna
 
 This project was presented and published at the BabyLM Challenge @ EMNLP 2026.
 
-The publication can be found [here](https://openreview.net/forum?id=vxEX4rQa12).
+The publication can be found [here]
 
 Related arXiv preprints:
 - [When Irregularity Helps](https://arxiv.org/abs/2605.20558)
