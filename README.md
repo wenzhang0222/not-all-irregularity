@@ -4,7 +4,7 @@ This project presents an orthography-aware diagnosis and causal isolation of a r
 
 ## License
 
-The data is released under a Creative Commons Attribution-ShareAlike 4.0 International Public License. Please see LICENSE.txt for details.
+The data is released under a Creative Commons Attribution-ShareAlike 4.0 International Public License. Please see [LICENSE.txt](https://github.com/wenzhang0222/not-all-irregularity/blob/main/LICENSE.txt) for details.
 
 ## Releasing
 
