@@ -26,21 +26,22 @@ The data is released under a Creative Commons Attribution-ShareAlike 4.0 Interna
 
 ## Citation
 
+If you use this data or code, please cite:
+
 ```bibtex
 @inproceedings{zhang-2026-not,
     title = "Not All Irregularity Is Equal: Causally Isolating 
              a Rare Failure Mode in Japanese Morphological Inflection",
     author = "Zhang, Wen",
     booktitle = "Proceedings of the BabyLM Challenge @ EMNLP 2026",
-    year = "2026"
+    year = "2026",
+    note = "To appear"
 }
 ```
 
 ## Link
 
-This project was presented and published at the BabyLM Challenge @ EMNLP 2026.
-
-The publication can be found [here]
+This project has been accepted at the BabyLM Challenge @ EMNLP 2026.
 
 Related arXiv preprints:
 - [When Irregularity Helps](https://arxiv.org/abs/2605.20558)
