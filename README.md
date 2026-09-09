@@ -8,20 +8,18 @@ The data is released under a Creative Commons Attribution-ShareAlike 4.0 Interna
 
 ## Releasing
 
-1. The full verb dataset (3,958 verbs with citation form, inflected form, and verb type label) is released in [data/full_verb_labels.tsv](https://github.com/wenzhang0222/not-all-irregularity/blob/main/data/full_verb_labels.tsv).
+1. All 37 Type 4-2 verbs in our dataset with their lemma and past-tense forms in hiragana are released in [data/type42_verbs.tsv](https://github.com/wenzhang0222/not-all-irregularity/blob/main/data/type42_verbs.tsv).
 
-2. All 37 Type 4-2 verbs in our dataset with their lemma and past-tense forms in hiragana are released in [data/type42_verbs.tsv](https://github.com/wenzhang0222/not-all-irregularity/blob/main/data/type42_verbs.tsv).
+2. All 19 Type 4-2 verbs that produced errors in both PGT and LST systems, confirming 100% overlap across architectures, are released in [data/type42_error_verbs.tsv](https://github.com/wenzhang0222/not-all-irregularity/blob/main/data/type42_error_verbs.tsv).
 
-3. All 19 Type 4-2 verbs that produced errors in both PGT and LST systems, confirming 100% overlap across architectures, are released in [data/type42_error_verbs.tsv](https://github.com/wenzhang0222/not-all-irregularity/blob/main/data/type42_error_verbs.tsv).
-
-4. Figure generation scripts for all three figures in the paper are released in the [scripts/](https://github.com/wenzhang0222/not-all-irregularity/tree/main/scripts) folder:
+3. Figure generation scripts for all three figures in the paper are released in the [scripts/](https://github.com/wenzhang0222/not-all-irregularity/tree/main/scripts) folder:
    * [plot_disparity.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/plot_disparity.py) — Figure 1: Disparity Ratio
    * [ablation.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/ablation.py) — Figure 2: Ablation gains
    * [error_rate_verb_type.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/error_rate_verb_type.py) — Figure 3: Error rate by verb type
 
-5. The statistical analysis script (Disparity Ratio + binomial test) is released in [scripts/analysis.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/analysis.py).
+4. The statistical analysis script (Disparity Ratio + binomial test) is released in [scripts/analysis.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/analysis.py).
 
-6. Numerical results for all experiments are released in the 
+5. Numerical results for all experiments are released in the 
 [results/](https://github.com/wenzhang0222/not-all-irregularity/tree/main/results) folder:
    * [ablation_results.tsv](https://github.com/wenzhang0222/not-all-irregularity/blob/main/results/ablation_results.tsv) — accuracy under all 8 ablation conditions
    * [error_distribution.tsv](https://github.com/wenzhang0222/not-all-irregularity/blob/main/results/error_distribution.tsv) — error distribution by verb type
