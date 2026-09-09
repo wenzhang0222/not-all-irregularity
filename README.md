@@ -15,9 +15,11 @@ The data is released under a Creative Commons Attribution-ShareAlike 4.0 Interna
 3. All 19 Type 4-2 verbs that produced errors in both PGT and LST systems, confirming 100% overlap across architectures, are released in [data/type42_error_verbs.tsv](https://github.com/wenzhang0222/not-all-irregularity/blob/main/data/type42_error_verbs.tsv).
 
 4. Figure generation scripts for all three figures in the paper are released in the [scripts/](https://github.com/wenzhang0222/not-all-irregularity/tree/main/scripts) folder:
-   - [plot_disparity.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/plot_disparity.py) — Figure 1: Disparity Ratio
-   - [ablation.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/ablation.py) — Figure 2: Ablation gains
-   - [error_rate_verb_type.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/error_rate_verb_type.py) — Figure 3: Error rate by verb type
+   * [plot_disparity.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/plot_disparity.py) — Figure 1: Disparity Ratio
+   * [ablation.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/ablation.py) — Figure 2: Ablation gains
+   * [error_rate_verb_type.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/error_rate_verb_type.py) — Figure 3: Error rate by verb type
+
+5. The statistical analysis script (Disparity Ratio + binomial test) is released in [scripts/analysis.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/analysis.py).
 
 ## Key Findings
 
