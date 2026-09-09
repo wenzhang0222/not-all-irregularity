@@ -1,0 +1,6 @@
+verb_type	total_items	pgt_errors	pgt_error_rate_pct	lst_errors	lst_error_rate_pct
+Type 1	2502	10	0.4	13	0.5
+Type 2	1298	11	0.8	13	1.0
+Type 4-1	120	8	6.7	7	5.8
+Type 4-2	37	19	51.4	19	51.4
+Type 4-3	1	0	0.0	0	0.0
