@@ -21,6 +21,13 @@ The data is released under a Creative Commons Attribution-ShareAlike 4.0 Interna
 
 5. The statistical analysis script (Disparity Ratio + binomial test) is released in [scripts/analysis.py](https://github.com/wenzhang0222/not-all-irregularity/blob/main/scripts/analysis.py).
 
+6. Numerical results for all experiments are released in the 
+[results/](https://github.com/wenzhang0222/not-all-irregularity/tree/main/results) folder:
+   * [ablation_results.tsv](https://github.com/wenzhang0222/not-all-irregularity/blob/main/results/ablation_results.tsv) — accuracy under all 8 ablation conditions
+   * [error_distribution.tsv](https://github.com/wenzhang0222/not-all-irregularity/blob/main/results/error_distribution.tsv) — error distribution by verb type
+   * [disparity_ratios.tsv](https://github.com/wenzhang0222/not-all-irregularity/blob/main/results/disparity_ratios.tsv) — Disparity Ratio values
+   * [error_rates.tsv](https://github.com/wenzhang0222/not-all-irregularity/blob/main/results/error_rates.tsv) — error rate per verb type
+
 ## Key Findings
 
 - Type 4-2 verbs (stem-final /e/ + gemination) account for **36–40% of residual errors** despite comprising only **0.9% of the dataset**
