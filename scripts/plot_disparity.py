@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 verb_types = ['Type 1', 'Type 2', 'Type 4-1', 'Type 4-2']
-pgt = [0.33, 0.70, 5.50, 42.3]
-lst = [0.40, 0.76, 4.44, 39.1]
+pgt = [0.45, 0.52, 8.17, 33.2]
+lst = [0.40, 0.60, 3.93, 47.4]
 
 x = np.arange(len(verb_types))
 width = 0.35
