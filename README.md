@@ -28,8 +28,8 @@ The data is released under a Creative Commons Attribution-ShareAlike 4.0 Interna
 
 ## Key Findings
 
-- Type 4-2 verbs (stem-final /e/ + gemination) account for **36–40% of residual errors** despite comprising only **0.9% of the dataset**
-- **Disparity Ratio**: 39–42× disproportionate error concentration
+- Type 4-2 verbs (stem-final /e/ + gemination) account for **30–43% of residual errors** despite comprising only **0.9% of the dataset**
+- **Disparity Ratio**: 34–48× disproportionate error concentration
 - **100% overlap**: Both PGT and LST systems fail on exactly the same 19 Type 4-2 verbs
 - Removing Type 4-2 from training improves generalization more than removing all irregular verbs
 
