@@ -2,10 +2,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 verb_types = ['Type 1', 'Type 2', 'Type 4-1', 'Type 4-2']
-pgt_error_rate = [10/2502*100, 11/1298*100,
-                  8/120*100, 19/37*100]
-lst_error_rate = [13/2502*100, 13/1298*100,
-                  7/120*100, 19/37*100]
+pgt_error_rate = [15/2503*100, 9/1298*100,
+                  13/119*100, 16/37*100]
+lst_error_rate = [13/2503*100, 10/1298*100,
+                  6/119*100, 22/37*100]
 
 x = np.arange(len(verb_types))
 width = 0.35
