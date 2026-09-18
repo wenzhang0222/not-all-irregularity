@@ -39,7 +39,7 @@ If you use this data or code, please cite:
     title = "Not All Irregularity Is Equal: Causally Isolating 
              a Rare Failure Mode in Japanese Morphological Inflection",
     author = "Zhang, Wen",
-    booktitle = "Proceedings of the BabyLM Challenge @ EMNLP 2026",
+    booktitle = "Proceedings of the 2nd BabyLM Workshop @ EMNLP 2026",
     year = "2026",
     note = "To appear"
 }
