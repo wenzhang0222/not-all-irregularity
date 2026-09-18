@@ -47,8 +47,6 @@ If you use this data or code, please cite:
 
 ## Link
 
-This project has been accepted at the BabyLM Challenge @ EMNLP 2026.
-
 Related arXiv preprints:
 - [When Irregularity Helps](https://arxiv.org/abs/2605.20558)
 - [Mind Your Moras](https://arxiv.org/abs/2605.20043)
