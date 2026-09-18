@@ -12,9 +12,9 @@ width = 0.35
 
 fig, ax = plt.subplots(figsize=(5, 3.5))
 ax.bar([i - width/2 for i in x], pgt_error_rate,
-       width, label='PGT', color='#0072B2')
+       width, label='PGT', color='#CC4049')
 ax.bar([i + width/2 for i in x], lst_error_rate,
-       width, label='LST', color='#CC4049')
+       width, label='LST', color='#0072B2')
 ax.set_ylabel('Error rate (\%)')
 ax.set_xticks(x)
 ax.set_xticklabels(verb_types)
