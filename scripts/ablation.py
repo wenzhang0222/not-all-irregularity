@@ -11,9 +11,9 @@ width = 0.35
 
 fig, ax = plt.subplots(figsize=(7, 3.5))
 bars1 = ax.bar(x - width/2, pgt_gains, width,
-               label='PGT', color='#0072B2')
+               label='PGT', color='#CC4049')
 bars2 = ax.bar(x + width/2, lst_gains, width,
-               label='LST', color='#CC4049')
+               label='LST', color='#0072B2')
 ax.set_ylabel('Accuracy gain (\%)')
 ax.set_xticks(x)
 ax.set_xticklabels(conditions, rotation=30, ha='right')
