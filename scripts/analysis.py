@@ -6,20 +6,20 @@ from scipy.stats import binomtest
 
 # Dataset composition
 dataset = {
-    "Type 1":   2502,
+    "Type 1":   2503,
     "Type 2":   1298,
-    "Type 4-1": 120,
+    "Type 4-1": 119,
     "Type 4-2": 37,
     "Type 4-3": 1,
 }
 total_verbs = sum(dataset.values())  # 3958
 
 # Error counts — unique verb method — aggregated across 5 seeds
-pgt_errors = {"Type 1": 10, "Type 2": 11, "Type 4-1": 8, "Type 4-2": 19, "Type 4-3": 0}
-lst_errors = {"Type 1": 13, "Type 2": 13, "Type 4-1": 7, "Type 4-2": 19, "Type 4-3": 0}
+pgt_errors = {"Type 1": 15, "Type 2": 9, "Type 4-1": 13, "Type 4-2": 16, "Type 4-3": 0}
+lst_errors = {"Type 1": 13, "Type 2": 10, "Type 4-1": 6, "Type 4-2": 22, "Type 4-3": 0}
 
-pgt_total = sum(pgt_errors.values())  # 48
-lst_total = sum(lst_errors.values())  # 52
+pgt_total = sum(pgt_errors.values())  # 53
+lst_total = sum(lst_errors.values())  # 51
 
 # Disparity Ratio: error share / data share
 print("Disparity Ratio")
@@ -45,3 +45,4 @@ for vtype in dataset:
     pgt_rate = pgt_errors[vtype] / dataset[vtype] * 100
     lst_rate = lst_errors[vtype] / dataset[vtype] * 100
     print(f"  {vtype}: PGT={pgt_rate:.1f}%, LST={lst_rate:.1f}%")
+    
