@@ -9,8 +9,8 @@ x = np.arange(len(verb_types))
 width = 0.35
 
 fig, ax = plt.subplots(figsize=(6, 4))
-bars1 = ax.bar(x - width/2, pgt, width, label='PGT', color='#0072B2')
-bars2 = ax.bar(x + width/2, lst, width, label='LST', color='#CC4049')
+bars1 = ax.bar(x - width/2, pgt, width, label='PGT', color='#CC4049')
+bars2 = ax.bar(x + width/2, lst, width, label='LST', color='#0072B2')
 
 ax.set_ylabel('Disparity Ratio')
 ax.set_xticks(x)
